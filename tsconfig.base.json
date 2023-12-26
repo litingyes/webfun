@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "webfun": ["packages/webfun/src/index.ts"],
-      "@webfun/client": ["packages/client/src/index.ts"]
+      "@webfun/client": ["packages/client/src/index.ts"],
+      "webfun": ["packages/webfun/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
