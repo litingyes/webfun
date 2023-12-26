@@ -1,5 +1,5 @@
 {
-  "name": "@webapi/client",
+  "name": "@webfun/client",
   "version": "0.0.0",
   "dependencies": {},
   "type": "commonjs",
