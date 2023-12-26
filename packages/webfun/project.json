@@ -1,18 +1,18 @@
 {
-  "name": "webapi",
+  "name": "webfun",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/webapi/src",
+  "sourceRoot": "packages/webfun/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/rollup:rollup",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/webapi",
-        "main": "packages/webapi/src/index.ts",
-        "tsConfig": "packages/webapi/tsconfig.lib.json",
+        "outputPath": "dist/packages/webfun",
+        "main": "packages/webfun/src/index.ts",
+        "tsConfig": "packages/webfun/tsconfig.lib.json",
         "assets": [],
-        "project": "packages/webapi/package.json",
+        "project": "packages/webfun/package.json",
         "compiler": "swc",
         "format": ["cjs", "esm"]
       }
@@ -25,7 +25,7 @@
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "reportsDirectory": "../../coverage/packages/webapi"
+        "reportsDirectory": "../../coverage/packages/webfun"
       }
     }
   },
