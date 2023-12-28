@@ -5,6 +5,10 @@
     "@webfun/client": "0.1.0"
   },
   "type": "module",
-  "main": "./index.cjs",
-  "module": "./index.js"
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.cjs.d.ts",
+  "files": [
+    "dist"
+  ]
 }
