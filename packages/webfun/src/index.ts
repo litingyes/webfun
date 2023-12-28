@@ -1,1 +1,1 @@
-export * from './lib/webfun';
+export * from '@webfun/client';
